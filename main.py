@@ -25,14 +25,16 @@ while True:
     else:
         if reg_exp:
             if re.findall(reg_exp, new_thread['comment']):
-                print(re.findall(reg_exp, new_thread['comment']))
+                print("Найдено: "+re.findall(reg_exp, new_thread['comment']))
                 webbrowser.open('https://2ch.hk/' + board + '/res/' + str(new_thread['num']) + '.html', new=2,
                                 autoraise=True)
                 winsound.PlaySound("nya.wav", 0)
                 current_thread = new_thread
             else:
+                print('Ничего не найдено в посте')
                 current_thread = new_thread
         else:
+            print("Найден новый тред")
             webbrowser.open('https://2ch.hk/' + board + '/res/' + str(new_thread['num']) + '.html', new=2,
                             autoraise=True)
             winsound.PlaySound("nya.wav", 0)
