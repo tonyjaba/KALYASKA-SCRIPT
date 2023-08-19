@@ -30,6 +30,8 @@ while True:
                                 autoraise=True)
                 winsound.PlaySound("nya.wav", 0)
                 current_thread = new_thread
+            else:
+                current_thread = new_thread
         else:
             webbrowser.open('https://2ch.hk/' + board + '/res/' + str(new_thread['num']) + '.html', new=2,
                             autoraise=True)
