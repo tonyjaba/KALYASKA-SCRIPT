@@ -14,7 +14,7 @@ def get_thread():
         r = requests.get('https://2ch.hk/' + board + '/catalog_num.json').json()
         return r['threads'][0]
     except Exception as Ex:
-        print('Ошибка соединения!(проверьте интернет-соединение и правильность ввода доски):\n' + Ex)
+        input('Ошибка соединения!(проверьте интернет-соединение и правильность ввода доски):\n' + Ex)
 
 
 current_thread = get_thread()
