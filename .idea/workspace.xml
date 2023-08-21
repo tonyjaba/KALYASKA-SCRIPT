@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30831fb6-bb12-4ee4-b095-017b10964ade" name="Changes" comment="Readme update">
+    <list default="true" id="30831fb6-bb12-4ee4-b095-017b10964ade" name="Changes" comment="Exeption handling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692487027281</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Exeption handling">
+      <created>1692515427093</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692515427093</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Exeption handling">
+      <created>1692515437736</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692515437736</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +146,7 @@
     <MESSAGE value="Update exe" />
     <MESSAGE value="Update main + exe" />
     <MESSAGE value="Readme update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme update" />
+    <MESSAGE value="Exeption handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exeption handling" />
   </component>
 </project>
