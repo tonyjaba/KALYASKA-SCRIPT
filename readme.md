@@ -6,11 +6,13 @@
 Python 3.8 и выше можно скачать здесь, обязательно добавьте Python в PATH при инсталляции, либо после неё.
 https://www.python.org/downloads/
 ### Клонирование репозитория и добавление библиотеки
-Скачивание репозитория с GitHub:
+Скачивание репозитория с GitHub, имея установленный Git:
 ```bash
 git clone https://github.com/tonyjaba/KALYASKA-SCRIPT
 cd KALYASKA-SCRIPT
 ```
+Или по ссылке https://github.com/tonyjaba/KALYASKA-SCRIPT/archive/refs/heads/master.zip
+
 Добавление библиотеки requests:
 ```bash
 pip install requests
