@@ -18,7 +18,7 @@ pip install requests
 ## Использование
 ### Запуск:
 ```bash
-python monitor.py [параметры]
+python main.py [параметры]
 ```
 ### Параметры командной строки
 - board (обязательный): Название доски для мониторинга (например, news).
@@ -29,11 +29,11 @@ python monitor.py [параметры]
 ### Примеры использования
 1. Мониторинг всей доски news с задержкой в 5 секунд:
 ```bash
-python monitor.py news --delay 5
+python main.py news --delay 5
 ```
 2. Мониторинг постов треда 123456 на доске b, отключая звук:
 ```bash
-python monitor.py b --thread 123456 --nosound
+python main.py b --thread 123456 --nosound
 ```
 
 
